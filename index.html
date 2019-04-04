@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--CDN-->
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link rel="stylesheet" type="text/css" href="style.css"/>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <title>java</title>
+</head>
+<body>
+     <div class="wrapper">
+         <center>
+             <div class="container">
+                 <header class="card-panel grey darken-4 grey-text">
+                     <h1> TO-DO-APP</h1>
+                     <form id="search-box">
+                         <button class="btun"><i class="fas fa-search"></i></button>
+                     <input type="text" placeholder="search" class="white-text"/>
+                     </form>
+                 </header>
+                 <br>
+                 <div id="mainlists">
+                     <h2><u>Work To-Do'S</u></h2>
+                     <br>
+                     <ul>
+                         <li>
+                             <span class="text"> Attend University</span>
+                             <button class="delete" id="first">Delete</button>
+                             <button class="edit">Edit</button>
+                         </li>
+                         <br>
+                         <br>
+                         <li>
+                             <span class="text">Go To Shopping</span>
+                             <button class="delete" id="second">Delete</button>
+                             <button class="edit">Edit</button>
+                         </li>
+                         <br>
+                         <br>
+                         <li>
+                             <span class="text">Go For Dinner</span>
+                             <button class="delete" id="third">Delete</button>
+                             <button class="edit">Edit</button>
+                         </li>
+                         <br>
+                         <br>
+                         <li>
+                             <span class="text">See The Doctor</span>
+                             <button class="delete" id="fourth">Delete</button>
+                             <button class="edit">Edit</button>
+                         </li>
+                     </ul>
+                    </div>
+                 <form id="add-work">
+                    <input type="text" placeholder="Add a text"/><button class="switch"><i class="fas fa-plus-square fa-2x"></i></button>
+                 </form>
+    
+                 
+
+             </div><!--container ends here-->
+         </center>
+     </div> <!--wrapper ends here-->
+
+
+   
+     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     <script src="index.js"></script>
+  
+
+ 
+
+</body>
+</html>

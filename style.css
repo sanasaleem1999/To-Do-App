@@ -1,0 +1,58 @@
+#first{
+    margin-left: 21%;
+}
+.delete{
+    border: 2px solid black;
+    border-radius: 3px;
+    margin-left: 30px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin-top: 4px;
+    margin-left: 196px;
+}
+#second{
+    margin-left: 22%;
+}
+#third{
+    margin-left: 23%;
+}
+#fourth{
+    margin-left: 23%;
+}
+.switch{
+    background-color: black;
+    color: white;
+    padding: 4px;
+}
+.iconss{
+    margin-left: 70%;
+}
+.btun{
+    margin-left: 95%;
+    position: relative;
+    top: 40px;
+}
+li{
+    border: 2px solid black;
+    background-color: black;
+    margin-top: 30px;
+
+}
+.edit{
+    background-color: black;
+    color: white;
+}
+.text{
+    font-size: 20px;
+    color: white;
+    
+}
+@media screen and (max-width:700px){
+    #third{
+        margin-left: 26%;
+    }
+    #fourth{
+        margin-left: 27%;
+    }
+}
